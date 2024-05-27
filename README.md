@@ -54,8 +54,6 @@ background: '/PATH_TO_IMAGE'
 ---
 ```
 
-For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
-
 5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 ```
 <form name="sentMessage" id="contactForm" novalidate>
@@ -95,7 +93,7 @@ For reference, look at the [demo repository](https://github.com/BlackrockDigital
 </form>
 ```
 
-Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by [Formspree](https://formspree.io/), and then the form will be working!
 
 6. Build your site: `bundle exec jekyll serve`
 
